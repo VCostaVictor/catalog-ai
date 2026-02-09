@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catalog.ai — Avaliação Inteligente de Cadastro de Produtos</title>
+
+  <meta name="description" content="Cole a URL de um produto e receba uma análise inteligente do cadastro, benchmark e recomendações." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: #0f0f12;
+      color: #f5f5f7;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 56px 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .badge {
+      background: #1f1f26;
+      color: #9fffa1;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 12px;
+      width: fit-content;
+    }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 700;
+      max-width: 760px;
+    }
+
+    h1 span {
+      color: #9fffa1;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #c7c7d1;
+      max-width: 700px;
+    }
+
+    form {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    input[type="url"] {
+      padding: 14px 16px;
+      border-radius: 8px;
+      border: none;
+      width: 320px;
+      max-width: 100%;
+    }
+
+    button {
+      padding: 14px 22px;
+      border-radius: 8px;
+      border: none;
+      background: #9fffa1;
+      color: #0f0f12;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 64px 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .card {
+      background: #16161d;
+      border-radius: 16px;
+      padding: 24px;
+      border: 1px solid #1f1f26;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #c7c7d1;
+    }
+
+    footer {
+      padding: 48px 24px;
+      text-align: center;
+      font-size: 14px;
+      color: #7d7d8a;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <span class="badge">🚀 MVP em construção</span>
+
+    <h1>Catalog<span>.ai</span><br> Avaliação inteligente de cadastro de produtos</h1>
+
+    <p class="subtitle">
+      Cole a URL de um produto do seu e-commerce e receba uma análise automática de qualidade de cadastro, benchmark com concorrentes e sugestões práticas de melhoria.
+    </p>
+
+    <form action="resultado.html">
+      <input type="url" name="product_url" placeholder="Cole aqui a URL do produto" required />
+      <button type="submit">Analisar produto</button>
+    </form>
+  </header>
+
+  <section>
+    <h2>O que o Catalog.ai analisa</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>📦 Plataforma</h3>
+        <p>Identificação automática da plataforma do e-commerce (VTEX, Shopify, Magento, etc).</p>
+      </div>
+
+      <div class="card">
+        <h3>⭐ Score de Cadastro</h3>
+        <p>Avaliação de título, descrição, imagens, atributos, SEO e variações.</p>
+      </div>
+
+      <div class="card">
+        <h3>🏷️ Benchmark</h3>
+        <p>Comparação com concorrentes diretos do mesmo segmento.</p>
+      </div>
+
+      <div class="card">
+        <h3>📊 Posicionamento</h3>
+        <p>Como a marca se posiciona em clareza, profundidade e qualidade do conteúdo.</p>
+      </div>
+
+      <div class="card">
+        <h3>🛠️ Recomendações</h3>
+        <p>Sugestões objetivas de melhoria para conversão e padronização.</p>
+      </div>
+
+      <div class="card">
+        <h3>📄 Documentação</h3>
+        <p>Guia prático para times de catálogo e produto.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 — Catalog.ai · “Cataloga aí esse negócio” 😈
+  </footer>
+
+</body>
+</html>

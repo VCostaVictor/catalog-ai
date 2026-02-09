@@ -1,0 +1,31 @@
+# Catalog.ai 🚀
+
+Catalog.ai é um MVP focado em **avaliação inteligente de cadastro de produtos para e-commerce**.
+
+A proposta é simples:
+
+> Cole a URL de um produto e receba uma análise clara, objetiva e comparativa com o mercado.
+
+## O que o MVP faz
+- Identifica a plataforma do e-commerce
+- Avalia a qualidade do cadastro de produto
+- Compara com concorrentes do mesmo segmento
+- Sugere melhorias práticas
+- Gera base para relatórios e consultoria
+
+## Status
+MVP em validação 🚧
+
+## Stack
+- HTML + CSS
+- Deploy via Vercel
+- GitHub como repositório
+
+## Roadmap
+- Automação da análise
+- Scraping inteligente
+- Geração de relatórios em PDF
+- Planos pagos e dashboard
+
+---
+“Cataloga aí esse negócio.” 😈
